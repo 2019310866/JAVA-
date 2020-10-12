@@ -2,7 +2,67 @@
 JAVA课程作业
 
 # 阅读程序
+```
+package pack;
 
+ public class Text {
+ public static void main(String args[]){
+  
+  CPU cpu =new CPU();
+  
+  cpu.setSpeed(3000);
+  
+  HardDisk disk=new HardDisk();
+  
+  disk.setAmount(500);
+  
+  PC pc=new PC();
+  pc.setCPU(cpu);
+  pc.setHardDisk(disk);
+pc.show();
+  
+ }
+
+}
+ 
+ class CPU {
+  int speed;
+  int getSpeed(){
+   return speed;
+  }
+  public void setSpeed(int speed){
+   this.speed=speed;
+  }
+
+ }
+ 
+class HardDisk {
+  int amount;
+  int getAmount(){
+   return amount;
+  }
+  public void setAmount(int amount){
+   this.amount=amount;
+  }
+
+ }
+ 
+ class PC {
+  CPU cpu;
+  HardDisk disk;
+  void setCPU(CPU cpu){
+   this.cpu=cpu;
+  }
+  void setHardDisk(HardDisk disk){
+   this.disk=disk; 
+  }
+  void show(){
+   System.out.println("CPU速度"+cpu.getSpeed());
+   System.out.println("硬盘容量"+disk.getAmount());
+  }
+
+ }
+ ```
 ## 实验目的
 用类描述计算机的cpu速度和硬盘容量
 
