@@ -15,6 +15,7 @@ JAVA课程作业
 
 ## 核心方法
 1.CPU
+```
 public class CPU {
 	int speed;
 	int getSpeed(){
@@ -23,8 +24,10 @@ public class CPU {
 	public void setSpeed(int speed){
 		this.speed=speed;
 	}
+```
+
 2.HardDisk
-}
+```
 public class HardDisk {
 
 int amount;
@@ -36,7 +39,9 @@ public void setAmount(int amount){
 }
 
 }
+```
 3.PC
+```
 public class PC {
 
 	CPU cpu;
@@ -53,7 +58,9 @@ public class PC {
 	}
 
 }
+```
 4.Text
+```
 public class Test {
 	public static void main(String args[]){
 		
@@ -73,7 +80,7 @@ pc.show();
 	}
 
 }
-
+```
 ## 实验结果
 CPU速度2200
 硬盘容量200
