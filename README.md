@@ -67,11 +67,11 @@ class HardDisk {
 用类描述计算机的cpu速度和硬盘容量
 
 ## 实验过程
-1创建项目，在项下面创建package
-2创建CPU类，用创建参数speed，给speed赋值
-3创建HardDisk类，运用参数amonut
-4创建PC类，为CPU HardDisk赋值创建函数show（）
-5创建主类Text 调用上述函数，并赋值显示
+1.创建项目，在项下面创建package
+2.创建CPU类，用创建参数speed，给speed赋值
+3.创建HardDisk类，运用参数amonut
+4.创建PC类，为CPU HardDisk赋值创建函数show（）
+5.创建主类Text 调用上述函数，并赋值显示
 
 ## 核心方法
 1.CPU
@@ -146,4 +146,4 @@ CPU速度2200
 硬盘容量200
 
 ## 实验感想
-通过本次实验让我了解了参数的使用方法，并且能够熟练地使用Eclipse，并且掌握是使用方法
+通过本次实验让我了解了amonut  speed show 的使用方法，并且能够熟练地使用Eclipse，并且掌握是使用方法。这和平常老师讲的基础概念有些不同，需要自己进行调试，然后通过多次的调试还有与同学的讨论最后成功的编写出程序并且成功的运行。
